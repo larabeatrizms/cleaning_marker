@@ -5,12 +5,14 @@ const express = require('express');
 //const uploadConfig = require('./config/upload');
 
 //CONTROLLERS
-const SessionController = require('./controllers/SessionController');
+const UserSessionController = require('./controllers/UserSessionController');
+const ClientSessionController = require('./controllers/ClientSessionController');
 
 const routes = express.Router();
 //const upload = multer(uploadConfig);
 
-routes.post('/sessions', SessionController.store);
+routes.post('/clientsessions', ClientSessionController.store);
+routes.post('/usersessions', UserSessionController.store);
 
 module.exports = routes;
 

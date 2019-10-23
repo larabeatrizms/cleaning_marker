@@ -1,0 +1,33 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+//@import "bootstrap/scss/functions"; 
+//@import "bootstrap/scss/variables";
+//@import "../../node_modules/bootstrap/scss/variables";
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+
+.btn-primary { 
+  background-color: #FF0066; 
+}
+
+
+$theme-colors: (
+  "primary": #FF0066,
+  "hover_btn": #b00046, 
+);
+
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: false;
+$enable-grid-classes: true;
+$enable-print-styles: true;
+
+/* import only the necessary Bootstrap files */
+
+/* -------begin customization-------- */
+/* change the primary theme color to red */
+
+/* -------end customization-------- */
+/* finally, import Bootstrap to set the changes! */
+//@import "bootstrap";
+@import '~bootstrap/scss/bootstrap';
