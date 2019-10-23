@@ -11,7 +11,7 @@ const ImgLogo = styled.img`
 const ImgLogoMarca = styled.img`
   height: 50px;
   max-height: 75px;
-  margin: 10px 10px 10px 1px;
+  margin: 10px 0px 10px 1px;
 `;
 
 export {ImgLogo, ImgLogoMarca};

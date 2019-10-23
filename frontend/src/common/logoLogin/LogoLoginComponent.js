@@ -11,7 +11,7 @@ function LogoLoginComponent() {
     return (
         <div className="container_logo">
           <ImgLogo src={logo} alt="Cleaning Marker" inputBg="none"/>
-          <ImgLogoMarca src={logo_marca} alt="Claning Marker" />
+          <ImgLogoMarca src={logo_marca} alt="Cleaning Marker" />
         </div>
     );
 }
