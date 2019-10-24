@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 import api from '../../services/api';
 
+import NavBarComponent from '../../common/NavBar/NavBarComponent.js';
+
 export default function Login({ history }) {
     const [email, setEmail]= useState(''); 
 
@@ -19,7 +21,6 @@ export default function Login({ history }) {
     return (
         <>
             <h1> hello </h1>
-        
         </>
     );
 }
